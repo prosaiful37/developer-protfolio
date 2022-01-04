@@ -10,6 +10,8 @@ h1{
 }
 section{
     display: flex;
+    padding-bottom: 130px;
+    height: 500px;
 }
 .half-width{
     width: 50%;
@@ -18,6 +20,8 @@ section{
 }
 .half-width p{
     color: #696969;
+    padding-right: 15%;
+    display: block;
     
 }
 .half-width img{
@@ -35,4 +39,9 @@ section{
 .top-banner{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
